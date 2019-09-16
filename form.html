@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+</style>
+<html>
+
+<head>
+    <title>Brainster Проекти</title>
+    <meta name='keywords' content='kursevi,programiranje,marketing,proekti'>
+    <meta name='description' content='ova e strana za proekti'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src="https://kit.fontawesome.com/38d00ad9bf.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Font-awesome 4.7 cdn -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container-fluid no-padding">
+        <nav class="nav nav-father">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navHead">
+                <div class="navigation  hidden-md hidden-lg">
+                    <div onclick="showSidebar()" class="toggle-nav pull-right">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+        
+                    <div class="sidebar">
+                        <a onclick="closeSidebar()"><i class="fas fa-times fa-2x"></i></a>
+                        <a href="https://www.brainster.io/marketpreneurs" target="_blank">Академија за маркетинг</a>
+                        <a href="http://codepreneurs.co/ " target="_blank">Академија за програмирање</a>
+                        <a href="#contact" target="_blank">Академија за data science</a>
+                        <a href="https://www.brainster.io/design" target="_blank">Академија за дизајн</a>
+                        <div class="butt">
+                            <button class="btn btn-danger navBtn"><a href="form-site.html">Вработи наш студент</a></button>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+              <a class="navbar-brand logoimg" href="#"><img src="logo.png" class="img  img-responsive logo" alt=""></a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu hidden-xs" id="bs-example-navbar-collapse-1">
+              
+              <ul class="nav navbar-nav navbar-right list">
+                <li class="navDecor"><a href="https://www.brainster.io/marketpreneurs"  target="_blank">Академија за маркетинг</a></li>
+                <li class="navDecor"><a href="http://codepreneurs.co/ "  target="_blank">Академија за програмирање</a></li>
+                <li class="navDecor"><a href="#contact"  target="_blank">Академија за data science</a></li>
+                <li class="navDecor"><a href="https://www.brainster.io/design"  target="_blank">Академија за дизајн</a></li>
+                <li >
+                    <button class="btn btn-danger navBtn"><a href="form.html">Вработи наш студент</a></button>
+                </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+        <div class="container-fluid container-background">
+            <div class="row row-background"></div>
+            <div class="row text-center" style="padding:60px;">
+            <h1>Вработи студенти</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+        <form>
+         
+                <div class="form-group">
+                  <label for="inputnameandsurname">Име и презиме</label>
+                  <input type="text" class="form-control" id="nameandsurname" placeholder= "Вашето име и презиме">
+                </div>
+                <div class="form-group">
+                  <label for="inputemail">Контакт email</label>
+                  <input type="email" class="form-control" id="inputemail" placeholder="Контакт email на вашата компанија">
+                </div>
+                <div class="form-group">
+                        <label for="choosetype">Тип на студенти</label>
+                        <div class="dropdown" >
+                                <button style="width:100%" class="btn btn-default dropdown-toggle" type="button" id="choosetype" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 Изберете тип на студент
+                                 <i class="fas fa-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                  <li><a  href="#">Маркетинг</a></li>
+                                  <li><a href="#">Дизајн</a></li>
+                                  <li><a  href="#">Програмирање</a></li>
+                                  
+                                </ul>
+                              </div>
+                      </div>
+                    </form>
+            </div>
+               <div class="col-md-4">
+                   <form>
+                    <div class="form-group">
+                            <label for="inputcompanyname">Име на компанија</label>
+                            <input type="text" class="form-control" id="inputcompanyname" placeholder= "Име на вашата компанија">
+                          </div>
+                          <div class="form-group">
+                            <label for="inputphone">Контакт телефон</label>
+                            <input type="number" class="form-control" id="inputphone" placeholder="Контакт телефон на вашата компанија">
+                          </div>
+                          <div class="form-group">
+                          <button type="submit" class="btn btn-danger form-button" style="width: 100%">Испрати</button>
+                        </div>
+                        </form>
+               </div>
+        </div>
+                
+              
+
+        </div>
+        <div class="footer text-center">
+                <p>Изработено со ❤️ од студентите на Brainster</p>
+           </div>
+    </div>
+          
